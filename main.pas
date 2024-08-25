@@ -12,9 +12,13 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    Shape1: TShape;
-    Shape2: TShape;
+    Panel1: TPanel;
+    SideBar: TShape;
+    headerBar: TShape;
     StatusBar1: TStatusBar;
+    procedure FormCreate(Sender: TObject);
+    procedure headerBarChangeBounds(Sender: TObject);
+    procedure SideBarChangeBounds(Sender: TObject);
   private
 
   public
@@ -27,6 +31,23 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.headerBarChangeBounds(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.SideBarChangeBounds(Sender: TObject);
+begin
+
+end;
 
 end.
 

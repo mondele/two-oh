@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/home/jdwood/Development/fpcupdeluxe/fpc/bin/x86_64-linux/fpc.sh" Date="1723826547"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/jdwood/Development/WA/mondele/two-oh-github/lib/x86_64-linux -Fu/home/jdwood/Development/fpcupdeluxe/lazarus/lcl/units/x86_64-linux/gtk2 -Fu/home/jdwood/Development/fpcupdeluxe/lazarus/lcl/units/x86_64-linux -Fu/home/jdwood/Development/fpcupdeluxe/lazarus/components/freetype/lib/x86_64-linux -Fu/home/jdwood/Development/fpcupdeluxe/lazarus/components/lazutils/lib/x86_64-linux -Fu/home/jdwood/Development/fpcupdeluxe/lazarus/packager/units/x86_64-linux -Fu/home/jdwood/Development/WA/mondele/two-oh-github/ -FU/home/jdwood/Development/WA/mondele/two-oh-github/lib/x86_64-linux/ -FE/home/jdwood/Development/WA/mondele/two-oh-github/ -o/home/jdwood/Development/WA/mondele/two-oh-github/two_oh -dLCL -dLCLgtk2 two_oh.lpr"/>
+</CONFIG>

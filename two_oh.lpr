@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, main, unit1
+  Forms, main, dos, FileUtil, Classes
   { you can add units after this };
 
 {$R *.res}
@@ -28,13 +28,20 @@ happy_path := happy_path + '\AppData\Local\BTT-Writer\';
 {$ENDIF}
 end;
 
-function listProjects (dataPath string): string;
+function listProjects(dataPath: string): TStringList;
+   var myDirectory: string;
+   var projectFolders: TStringList;
 begin
-   myDirectory := dataPath + 'targetTranslations'
+   myDirectory := dataPath + 'targetTranslations';
    projectFolders := FindAllDirectories(myDirectory, false);
    try
      if projectFolders.Count > 0 then
      Result := projectFolders;
+     except
+       begin
+         writeLn('Something unexpected happened');
+       end;
+   end;
 end;
 
 begin

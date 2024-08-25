@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 626
+  Height = 578
+  Top = 231
+  Width = 980
+  Caption = 'Form1'
+  ClientHeight = 578
+  ClientWidth = 980
+  LCLVersion = '2.2.6.0'
+  object headerBar: TShape
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 984
+    Anchors = [akTop, akLeft, akRight]
+    Brush.Color = 9056768
+    OnChangeBounds = headerBarChangeBounds
+  end
+  object SideBar: TShape
+    Left = 0
+    Height = 578
+    Top = 0
+    Width = 55
+    Brush.Color = 13913858
+    OnChangeBounds = SideBarChangeBounds
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 18
+    Top = 560
+    Width = 980
+    Color = 9056768
+    Panels = <>
+    ParentColor = False
+  end
+end
