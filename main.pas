@@ -9,15 +9,15 @@ uses
 
 type
 
-  { TForm1 }
+  { Tdashboard }
 
-  TForm1 = class(TForm)
+  Tdashboard = class(TForm)
     Panel1: TPanel;
     SideBar: TShape;
-    headerBar: TShape;
+    titleBar: TShape;
     StatusBar1: TStatusBar;
     procedure FormCreate(Sender: TObject);
-    procedure headerBarChangeBounds(Sender: TObject);
+    procedure titleBarChangeBounds(Sender: TObject);
     procedure SideBarChangeBounds(Sender: TObject);
   private
 
@@ -26,25 +26,25 @@ type
   end;
 
 var
-  Form1: TForm1;
+  dashboard: Tdashboard;
 
 implementation
 
 {$R *.lfm}
 
-{ TForm1 }
+{ Tdashboard }
 
-procedure TForm1.headerBarChangeBounds(Sender: TObject);
+procedure Tdashboard.titleBarChangeBounds(Sender: TObject);
 begin
 
 end;
 
-procedure TForm1.FormCreate(Sender: TObject);
+procedure Tdashboard.FormCreate(Sender: TObject);
 begin
 
 end;
 
-procedure TForm1.SideBarChangeBounds(Sender: TObject);
+procedure Tdashboard.SideBarChangeBounds(Sender: TObject);
 begin
 
 end;

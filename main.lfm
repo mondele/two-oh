@@ -1,24 +1,25 @@
-object Form1: TForm1
+object dashboard: Tdashboard
   Left = 758
   Height = 578
   Top = 382
   Width = 1046
-  Caption = 'Form1'
+  Caption = 'dashboard'
   ClientHeight = 578
   ClientWidth = 1046
   OnCreate = FormCreate
-  LCLVersion = '2.2.6.0'
-  object headerBar: TShape
+  object titleBar: TShape
     Left = 0
     Height = 40
     Top = 0
     Width = 1050
     Anchors = [akTop, akLeft, akRight]
     Brush.Color = 9056768
-    OnChangeBounds = headerBarChangeBounds
+    OnChangeBounds = titleBarChangeBounds
   end
   object SideBar: TShape
-    AnchorSideTop.Control = headerBar
+    AnchorSideTop.Control = titleBar
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = StatusBar1
     Left = 0
     Height = 560
     Top = 0
@@ -39,7 +40,7 @@ object Form1: TForm1
   object Panel1: TPanel
     AnchorSideLeft.Control = SideBar
     AnchorSideLeft.Side = asrBottom
-    AnchorSideTop.Control = headerBar
+    AnchorSideTop.Control = titleBar
     AnchorSideTop.Side = asrBottom
     Left = 55
     Height = 38
@@ -49,6 +50,7 @@ object Form1: TForm1
     Anchors = [akTop, akLeft, akRight]
     Caption = 'Panel1'
     Color = 14540253
+    ParentBackground = False
     ParentColor = False
     TabOrder = 1
   end
