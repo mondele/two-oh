@@ -1,0 +1,11 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tdashboard.caption
+msgid "dashboard"
+msgstr ""
+
+#: tdashboard.panel1.caption
+msgid "Panel1"
+msgstr ""
+
