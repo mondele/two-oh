@@ -14,12 +14,14 @@ type
 
   Tdashboard = class(TForm)
     Label1: TLabel;
-    Panel1: TPanel;
+    homeScreen: TPanel;
     SideBar: TShape;
     titleBar: TShape;
     StatusBar1: TStatusBar;
     procedure FormCreate(Sender: TObject);
     procedure Label1Click(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
+    procedure Panel2Click(Sender: TObject);
     procedure titleBarChangeBounds(Sender: TObject);
     procedure SideBarChangeBounds(Sender: TObject);
   private
@@ -48,6 +50,16 @@ begin
 end;
 
 procedure Tdashboard.Label1Click(Sender: TObject);
+begin
+
+end;
+
+procedure Tdashboard.Panel1Click(Sender: TObject);
+begin
+
+end;
+
+procedure Tdashboard.Panel2Click(Sender: TObject);
 begin
 
 end;

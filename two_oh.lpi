@@ -44,6 +44,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
+      <Unit>
+        <Filename Value="ui.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Dashboard2"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

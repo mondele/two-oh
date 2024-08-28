@@ -5,11 +5,39 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 msgid "dashboard"
 msgstr ""
 
+#: tdashboard.homescreen.caption
+msgid "homeScreen"
+msgstr ""
+
 #: tdashboard.label1.caption
 msgid "BTT-Writer"
 msgstr ""
 
-#: tdashboard.panel1.caption
-msgid "Panel1"
+#: tdashboard2.caption
+msgid "Dashboard (2)"
+msgstr ""
+
+#: tdashboard2.home.caption
+msgid "home"
+msgstr ""
+
+#: tdashboard2.homeheader.caption
+msgid "homeHeader"
+msgstr ""
+
+#: tdashboard2.label1.caption
+msgid "Your Translation Projects"
+msgstr ""
+
+#: tdashboard2.sidebar.caption
+msgid "Sidebar"
+msgstr ""
+
+#: tdashboard2.statusbar.caption
+msgid "StatusBar"
+msgstr ""
+
+#: tdashboard2.titlebar.caption
+msgid "titleBar"
 msgstr ""
 

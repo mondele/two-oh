@@ -1,0 +1,9 @@
+{"version":1,"strings":[
+{"hash":34587225,"name":"tdashboard2.caption","sourcebytes":[68,97,115,104,98,111,97,114,100,32,40,50,41],"value":"Dashboard (2)"},
+{"hash":11706162,"name":"tdashboard2.titlebar.caption","sourcebytes":[116,105,116,108,101,66,97,114],"value":"titleBar"},
+{"hash":167426258,"name":"tdashboard2.sidebar.caption","sourcebytes":[83,105,100,101,98,97,114],"value":"Sidebar"},
+{"hash":146547234,"name":"tdashboard2.statusbar.caption","sourcebytes":[83,116,97,116,117,115,66,97,114],"value":"StatusBar"},
+{"hash":456245,"name":"tdashboard2.home.caption","sourcebytes":[104,111,109,101],"value":"home"},
+{"hash":166563058,"name":"tdashboard2.homeheader.caption","sourcebytes":[104,111,109,101,72,101,97,100,101,114],"value":"homeHeader"},
+{"hash":198006931,"name":"tdashboard2.label1.caption","sourcebytes":[89,111,117,114,32,84,114,97,110,115,108,97,116,105,111,110,32,80,114,111,106,101,99,116,115],"value":"Your Translation Projects"}
+]}
