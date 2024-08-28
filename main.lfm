@@ -1,17 +1,17 @@
 object dashboard: Tdashboard
   Left = 758
-  Height = 578
+  Height = 595
   Top = 382
-  Width = 1046
+  Width = 1067
   Caption = 'dashboard'
-  ClientHeight = 578
-  ClientWidth = 1046
+  ClientHeight = 595
+  ClientWidth = 1067
   OnCreate = FormCreate
   object titleBar: TShape
     Left = 0
     Height = 40
     Top = 0
-    Width = 1050
+    Width = 1071
     Anchors = [akTop, akLeft, akRight]
     Brush.Color = 9056768
     OnChangeBounds = titleBarChangeBounds
@@ -21,18 +21,19 @@ object dashboard: Tdashboard
     AnchorSideTop.Side = asrBottom
     AnchorSideBottom.Control = StatusBar1
     Left = 0
-    Height = 560
-    Top = 0
-    Width = 55
+    Height = 537
+    Top = 40
+    Width = 64
     Align = alLeft
+    BorderSpacing.Top = 40
     Brush.Color = 13913858
     OnChangeBounds = SideBarChangeBounds
   end
   object StatusBar1: TStatusBar
     Left = 0
     Height = 18
-    Top = 560
-    Width = 1046
+    Top = 577
+    Width = 1067
     Color = 9056768
     Panels = <>
     ParentColor = False
@@ -42,10 +43,10 @@ object dashboard: Tdashboard
     AnchorSideLeft.Side = asrBottom
     AnchorSideTop.Control = titleBar
     AnchorSideTop.Side = asrBottom
-    Left = 55
+    Left = 64
     Height = 38
     Top = 40
-    Width = 981
+    Width = 993
     Align = alCustom
     Anchors = [akTop, akLeft, akRight]
     Caption = 'Panel1'
@@ -53,5 +54,23 @@ object dashboard: Tdashboard
     ParentBackground = False
     ParentColor = False
     TabOrder = 1
+  end
+  object Label1: TLabel
+    AnchorSideTop.Control = titleBar
+    AnchorSideTop.Side = asrCenter
+    Left = 64
+    Height = 38
+    Top = 0
+    Width = 121
+    Align = alLeft
+    Caption = 'BTT-Writer'
+    Constraints.MaxHeight = 38
+    Font.Color = clWhite
+    Font.Height = -24
+    Font.Name = 'Noto Sans'
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label1Click
   end
 end
