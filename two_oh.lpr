@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, main, dos, FileUtil, Classes, ui
+  Forms, main, dos, FileUtil, Classes, ui, splash, configurator
   { you can add units after this };
 
 {$R *.res}
@@ -50,6 +50,7 @@ begin
   Application.Initialize;
   Application.CreateForm(Tdashboard, dashboard);
   Application.CreateForm(TDashboard2, Dashboard2);
+  Application.CreateForm(TsplashScreen, splashScreen);
   Application.Run;
 end.
 

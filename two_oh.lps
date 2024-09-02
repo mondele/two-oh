@@ -7,10 +7,9 @@
       <Unit>
         <Filename Value="two_oh.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="10"/>
-        <CursorPos Y="55"/>
-        <UsageCount Value="72"/>
+        <EditorIndex Value="4"/>
+        <CursorPos Y="56"/>
+        <UsageCount Value="78"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,59 +18,52 @@
         <ComponentName Value="dashboard"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos X="3" Y="64"/>
-        <UsageCount Value="72"/>
+        <CursorPos X="30" Y="9"/>
+        <UsageCount Value="78"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="main.lfm"/>
-        <EditorIndex Value="2"/>
-        <UsageCount Value="33"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="ui.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Dashboard2"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="splash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="splashScreen"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
+        <CursorPos X="3" Y="45"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.lfm"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="configurator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
-      <Position>
-        <Filename Value="two_oh.lpr"/>
-        <Caret Line="38" Column="30" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="two_oh.lpr"/>
-        <Caret Line="36" Column="22" TopLine="23"/>
-      </Position>
-      <Position>
-        <Filename Value="two_oh.lpr"/>
-        <Caret Line="33" Column="35" TopLine="23"/>
-      </Position>
-      <Position>
-        <Filename Value="two_oh.lpr"/>
-        <Caret Line="13" Column="38" TopLine="2"/>
-      </Position>
-      <Position>
-        <Filename Value="two_oh.lpr"/>
-        <Caret Line="39" Column="16" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="two_oh.lpr"/>
-        <Caret Line="31" Column="53" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="two_oh.lpr"/>
-        <Caret Line="40" TopLine="24"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="two_oh.lpr"/>
         <Caret Line="42" Column="49" TopLine="29"/>
@@ -159,10 +151,49 @@
       <Position>
         <Filename Value="ui.pas"/>
       </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+        <Caret Line="33" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+        <Caret Line="35" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+        <Caret Line="40" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+        <Caret Line="41" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+        <Caret Line="48" Column="3" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+        <Caret Line="43" Column="3" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="splash.pas"/>
+        <Caret Line="44" Column="3" TopLine="4"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
+    <HistoryLists>
+      <List Name="WorkingDirectory" Type="File" Count="1"/>
+      <List Name="LaunchingApplication" Type="File" Count="2">
+        <Item1 Value="/usr/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <Item2 Value="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
+      </List>
+      <List Name="CommandLineParameters" Count="1"/>
+    </HistoryLists>
   </ProjectSession>
 </CONFIG>

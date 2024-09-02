@@ -1,0 +1,257 @@
+[
+    {
+        "name": "localization",
+        "mainText": "localization_maintext",
+        "value": {"id": "en", "name": "English"},
+        "options": [],
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "glmode",
+        "mainText": "glmode_maintext",
+        "helpText": "glmode_helptext",
+        "value": false,
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "bemode",
+        "mainText": "bemode_maintext",
+        "helpText": "bemode_helptext",
+        "value": true,
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "colortheme",
+        "mainText": "colortheme_maintext",
+        "value": {"name": "system"},
+        "options": [{"name": "light"}, {"name": "dark"}, {"name": "system"}],
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true,
+        "translatable": true
+    },
+    {
+        "name": "appfont",
+        "mainText": "appfont_maintext",
+        "value": {"path": "default", "name": "Roboto"},
+        "options": [],
+        "group": "gen_group",
+        "enabled": true,
+        "visible": false
+    },
+    {
+        "name": "targetfont",
+        "mainText": "targetfont_maintext",
+        "value": {"path": "default", "name": "Roboto"},
+        "options": [],
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "sourcefont",
+        "mainText": "sourcefont_maintext",
+        "value": {"path": "default", "name": "Roboto"},
+        "options": [],
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "targetsize",
+        "mainText": "targetsize_maintext",
+        "value": {"name": "normal"},
+        "options": [{"name": "small"}, {"name": "normal"}, {"name": "large"}],
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true,
+        "translatable": true
+    },
+    {
+        "name": "sourcesize",
+        "mainText": "sourcesize_maintext",
+        "value": {"name": "normal"},
+        "options": [{"name": "small"}, {"name": "normal"}, {"name": "large"}],
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true,
+        "translatable": true
+    },
+    {
+        "name": "datalocation",
+        "mainText": "datalocation_maintext",
+        "value": "~/BTT-Writer",
+        "group": "gen_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "appversion",
+        "mainText": "appversion_maintext",
+        "value": "0.0.0",
+        "group": "about_group",
+        "enabled": false,
+        "visible": true
+    },
+    {
+        "name": "gitversion",
+        "mainText": "gitversion_maintext",
+        "value": "N/A",
+        "group": "about_group",
+        "enabled": false,
+        "visible": true
+    },
+    {
+        "name": "datapath",
+        "mainText": "datapath_maintext",
+        "value": "/test/path",
+        "group": "about_group",
+        "enabled": false,
+        "visible": true
+    },
+    {
+        "name": "license",
+        "mainText": "license_button",
+        "value": "",
+        "group": "legal_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "guidelines",
+        "mainText": "translation_button",
+        "value": "",
+        "group": "legal_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "statement",
+        "mainText": "statement_button",
+        "value": "",
+        "group": "legal_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "software",
+        "mainText": "software_licenses",
+        "value": "",
+        "group": "legal_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "serversuite",
+        "mainText": "server_suite_maintext",
+        "value": {"name": "WACS"},
+        "options": [
+            {
+                "name": "WACS", 
+                "dataserver": "https://wacs.bibletranslationtools.org", 
+                "mediaserver": "https://api.bibletranslationtools.org", 
+                "readerserver": "https://read.bibleineverylanguage.org",
+                "createaccounturl": "https://content.bibletranslationtools.org/user/sign_up",
+                "languageurl": "https://langnames.bibleineverylanguage.org/langnames.json",
+                "indexsqliteurl": "https://writer-resources.bibletranslationtools.org/index.sqlite"
+            },
+            {
+                "name": "DCS",
+                "dataserver": "https://git.door43.org",
+                "mediaserver": "https://api.unfoldingword.org",
+                "readerserver": "https://door43.org/u",
+                "createaccounturl": "https://git.door43.org/user/sign_up",
+                "languageurl": "https://td.unfoldingword.org/exports/langnames.json",
+                "indexsqliteurl": "https://writer-resources.bibletranslationtools.org/index.sqlite"
+            }
+        ],
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "dataserver",
+        "mainText": "data_server_label",
+        "value": "https://wacs.bibletranslationtools.org",
+        "default": "https://wacs.bibletranslationtools.org",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "mediaserver",
+        "mainText": "media_server_label",
+        "value": "https://api.bibletranslationtools.org",
+        "default": "https://api.bibletranslationtools.org",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "readerserver",
+        "mainText": "reader_server_label",
+        "value": "http://read.bibleineverylanguage.org/",
+        "default": "http://read.bibleineverylanguage.org/",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "createaccounturl",
+        "mainText": "create_account_label",
+        "value": "https://content.bibletranslationtools.org/user/sign_up",
+        "default": "https://content.bibletranslationtools.org/user/sign_up",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "languageurl",
+        "mainText": "language_url_label",
+        "value": "https://langnames.bibleineverylanguage.org/langnames.json",
+        "default": "https://langnames.bibleineverylanguage.org/langnames.json",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "indexsqliteurl",
+        "mainText": "indexsqliteurl_label",
+        "value": "https://writer-resources.bibletranslationtools.org/index.sqlite",
+        "default": "https://writer-resources.bibletranslationtools.org/index.sqlite",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "logginglevel",
+        "mainText": "logging_level_label",
+        "value": {"name": "warning_level"},
+        "options": [{"name": "information_level"}, {"name": "warning_level"}, {"name": "error_level"}],
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": false
+    },
+    {
+        "name": "developertools",
+        "mainText": "developer_tools",
+        "helpText": "developer_tools_label",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": true
+    },
+    {
+        "name": "refreshsettings",
+        "mainText": "refresh_settings_label",
+        "helpText": "refresh_settings_text",
+        "group": "advanced_group",
+        "enabled": true,
+        "visible": false
+    }
+]

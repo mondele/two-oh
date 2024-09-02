@@ -41,3 +41,23 @@ msgstr ""
 msgid "titleBar"
 msgstr ""
 
+#: tsplashscreen.bootstatus.caption
+msgid "BootStatus"
+msgstr ""
+
+#: tsplashscreen.bootstatustext.caption
+msgid "BootStatusText"
+msgstr ""
+
+#: tsplashscreen.caption
+msgid "splashScreen"
+msgstr ""
+
+#: tsplashscreen.programname.caption
+msgid "BTT Writer"
+msgstr ""
+
+#: tsplashscreen.programversion.caption
+msgid "Version 1.4.1+621"
+msgstr ""
+

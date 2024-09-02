@@ -97,6 +97,7 @@ object Dashboard2: TDashboard2
       Caption = 'Your Translation Projects'
       Font.Height = -21
       Font.Name = 'Noto Sans'
+      Layout = tlCenter
       ParentFont = False
     end
   end

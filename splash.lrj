@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":171811630,"name":"tsplashscreen.caption","sourcebytes":[115,112,108,97,115,104,83,99,114,101,101,110],"value":"splashScreen"},
+{"hash":162405795,"name":"tsplashscreen.bootstatus.caption","sourcebytes":[66,111,111,116,83,116,97,116,117,115],"value":"BootStatus"},
+{"hash":228655844,"name":"tsplashscreen.bootstatustext.caption","sourcebytes":[66,111,111,116,83,116,97,116,117,115,84,101,120,116],"value":"BootStatusText"},
+{"hash":99447714,"name":"tsplashscreen.programname.caption","sourcebytes":[66,84,84,32,87,114,105,116,101,114],"value":"BTT Writer"},
+{"hash":118428385,"name":"tsplashscreen.programversion.caption","sourcebytes":[86,101,114,115,105,111,110,32,49,46,52,46,49,43,54,50,49],"value":"Version 1.4.1+621"}
+]}
