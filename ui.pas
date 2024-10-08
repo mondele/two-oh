@@ -32,6 +32,7 @@ type
     StatusBar: TPanel;
     Sidebar: TPanel;
     titleBar: TPanel;
+    procedure FormCreate(Sender: TObject);
     procedure Label1Click(Sender: TObject);
   private
 
@@ -49,6 +50,11 @@ implementation
 { TDashboard2 }
 
 procedure TDashboard2.Label1Click(Sender: TObject);
+begin
+
+end;
+
+procedure TDashboard2.FormCreate(Sender: TObject);
 begin
 
 end;

@@ -1,12 +1,13 @@
 object Dashboard2: TDashboard2
-  Left = 1062
+  Left = 773
   Height = 840
-  Top = 630
+  Top = 168
   Width = 1147
   Caption = 'Dashboard (2)'
   ClientHeight = 840
   ClientWidth = 1147
   Color = 15724527
+  OnCreate = FormCreate
   LCLVersion = '2.2.6.0'
   object titleBar: TPanel
     AnchorSideLeft.Control = Owner
