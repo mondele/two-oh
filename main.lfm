@@ -1,18 +1,18 @@
 object dashboard: Tdashboard
-  Left = 758
-  Height = 595
-  Top = 382
-  Width = 1067
+  Left = 296
+  Height = 787
+  Top = 73
+  Width = 1200
   Caption = 'dashboard'
-  ClientHeight = 595
-  ClientWidth = 1067
+  ClientHeight = 787
+  ClientWidth = 1200
   OnCreate = FormCreate
-  LCLVersion = '3.0.0.3'
+  LCLVersion = '2.2.6.0'
   object titleBar: TShape
     Left = 0
     Height = 40
     Top = 0
-    Width = 1071
+    Width = 1204
     Anchors = [akTop, akLeft, akRight]
     Brush.Color = 9056768
     OnChangeBounds = titleBarChangeBounds
@@ -23,7 +23,7 @@ object dashboard: Tdashboard
     AnchorSideBottom.Control = StatusBar1
     AnchorSideBottom.Side = asrBottom
     Left = 0
-    Height = 538
+    Height = 730
     Top = 39
     Width = 56
     Align = alLeft
@@ -34,8 +34,8 @@ object dashboard: Tdashboard
   object StatusBar1: TStatusBar
     Left = 0
     Height = 18
-    Top = 577
-    Width = 1067
+    Top = 769
+    Width = 1200
     Color = 9056768
     Panels = <>
     ParentColor = False
@@ -46,7 +46,7 @@ object dashboard: Tdashboard
     Left = 56
     Height = 38
     Top = 0
-    Width = 121
+    Width = 124
     Align = alLeft
     Caption = 'BTT-Writer'
     Constraints.MaxHeight = 38
@@ -65,7 +65,7 @@ object dashboard: Tdashboard
     AnchorSideTop.Side = asrBottom
     AnchorSideBottom.Control = StatusBar1
     Left = 56
-    Height = 537
+    Height = 729
     Top = 40
     Width = 1010
     Anchors = [akTop, akLeft, akBottom]

@@ -1,13 +1,14 @@
 object splashScreen: TsplashScreen
-  Left = 2170
+  Left = 645
   Height = 172
-  Top = 250
+  Top = 665
   Width = 400
   Caption = 'splashScreen'
   ClientHeight = 172
   ClientWidth = 400
   Color = 15724527
   OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
   object Logo: TImage
     Left = 40
     Height = 132
@@ -564,6 +565,7 @@ object splashScreen: TsplashScreen
       Width = 94
       Caption = 'BootStatusText'
       Font.Color = clWhite
+      ParentColor = False
       ParentFont = False
     end
   end
@@ -571,10 +573,12 @@ object splashScreen: TsplashScreen
     Left = 192
     Height = 33
     Top = 32
-    Width = 127
+    Width = 143
     Caption = 'BTT Writer'
+    Font.Color = clBlack
     Font.Height = -27
     Font.Name = 'Roboto'
+    ParentColor = False
     ParentFont = False
     OnClick = programNameClick
   end
@@ -584,5 +588,8 @@ object splashScreen: TsplashScreen
     Top = 73
     Width = 110
     Caption = 'Version 1.4.1+621'
+    Font.Color = clBlack
+    ParentColor = False
+    ParentFont = False
   end
 end

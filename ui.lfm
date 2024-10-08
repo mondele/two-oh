@@ -1,12 +1,13 @@
 object Dashboard2: TDashboard2
-  Left = 2170
-  Height = 632
-  Top = 250
-  Width = 1005
+  Left = 1062
+  Height = 840
+  Top = 630
+  Width = 1147
   Caption = 'Dashboard (2)'
-  ClientHeight = 632
-  ClientWidth = 1005
+  ClientHeight = 840
+  ClientWidth = 1147
   Color = 15724527
+  LCLVersion = '2.2.6.0'
   object titleBar: TPanel
     AnchorSideLeft.Control = Owner
     AnchorSideTop.Control = Owner
@@ -15,7 +16,7 @@ object Dashboard2: TDashboard2
     Left = 0
     Height = 40
     Top = 0
-    Width = 1005
+    Width = 1147
     Anchors = [akTop, akLeft, akRight]
     Caption = 'titleBar'
     Color = 9056768
@@ -29,7 +30,7 @@ object Dashboard2: TDashboard2
     AnchorSideTop.Side = asrBottom
     AnchorSideBottom.Control = StatusBar
     Left = 0
-    Height = 562
+    Height = 770
     Top = 40
     Width = 56
     Anchors = [akTop, akLeft, akBottom]
@@ -47,8 +48,8 @@ object Dashboard2: TDashboard2
     AnchorSideBottom.Side = asrBottom
     Left = 0
     Height = 30
-    Top = 602
-    Width = 1005
+    Top = 810
+    Width = 1147
     Anchors = [akLeft, akRight, akBottom]
     Caption = 'StatusBar'
     Color = 9056768
@@ -62,7 +63,7 @@ object Dashboard2: TDashboard2
     AnchorSideRight.Control = Owner
     AnchorSideBottom.Control = StatusBar
     Left = 0
-    Height = 602
+    Height = 810
     Top = 0
     Width = 1
     Anchors = [akTop, akLeft, akRight, akBottom]
@@ -71,13 +72,20 @@ object Dashboard2: TDashboard2
     TabOrder = 3
   end
   object homeHeader: TPanel
-    Left = 57
+    AnchorSideLeft.Control = Sidebar
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = titleBar
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 56
     Height = 61
-    Top = 42
-    Width = 945
+    Top = 40
+    Width = 1091
+    Anchors = [akTop, akLeft, akRight]
     Caption = 'homeHeader'
     ClientHeight = 61
-    ClientWidth = 945
+    ClientWidth = 1091
     Color = 14540253
     ParentBackground = False
     ParentColor = False
@@ -91,14 +99,17 @@ object Dashboard2: TDashboard2
       Left = 29
       Height = 56
       Top = 2
-      Width = 245
+      Width = 257
       Anchors = [akTop, akLeft, akBottom]
       BorderSpacing.Left = 28
       Caption = 'Your Translation Projects'
+      Font.Color = clBlack
       Font.Height = -21
       Font.Name = 'Noto Sans'
       Layout = tlCenter
+      ParentColor = False
       ParentFont = False
+      OnClick = Label1Click
     end
   end
 end
