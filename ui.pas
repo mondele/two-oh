@@ -23,9 +23,9 @@ type
     property Date: TDateTime read FDate write FDate;
   end;
 
-  { TDashboard2 }
+  { TDashboard }
 
-  TDashboard2 = class(TForm)
+  TDashboard = class(TForm)
     home: TPanel;
     homeHeader: TPanel;
     Label1: TLabel;
@@ -41,20 +41,20 @@ type
   end;
 
 var
-  Dashboard2: TDashboard2;
+  Dashboard: TDashboard;
 
 implementation
 
 {$R *.lfm}
 
-{ TDashboard2 }
+{ TDashboard }
 
-procedure TDashboard2.Label1Click(Sender: TObject);
+procedure TDashboard.Label1Click(Sender: TObject);
 begin
 
 end;
 
-procedure TDashboard2.FormCreate(Sender: TObject);
+procedure TDashboard.FormCreate(Sender: TObject);
 begin
 
 end;

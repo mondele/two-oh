@@ -19,7 +19,11 @@ function happy_path: string;
 begin
 {$IFDEF UNIX}
 happy_path := GetEnv('HOME'); {All Unixes}
+{$IFDEF Darwin}
+happy_path := happy_path + '/Library/ApplicationSupport/BTT-Writer/';
+{$ELSE}
 happy_path := happy_path + '/.config/BTT-Writer/';
+{$ENDIF}
 {$ELSE}
 {$IFDEF WINDOWS}
 happy_path := GetEnv('HOMEPATH'); {Windows NT}
